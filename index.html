@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+  <script src="js/wow.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+  
+  <nav
+    class="flex flex-row items-center justify-between align-center md:max-w-[90rem] mx-auto max-w-[24.43rem] px-5 py-4 h-20">
+    <div class="">
+      <a href="/" class="flex flex-row">
+        <img src="assets/logo.svg" alt="logo" class=" mr-1" />
+        <p class="text-base font-PlusJakartaSansBold text-gray-600 ">
+          Milton
+        </p>
+      </a>
+    </div>
+
+
+    <button data-collapse-toggle="navbar-default" type="button"
+      class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+
+    <ul
+      class="list-none lg:flex hidden justify-end gap-10 items-center font-PlusJakartaSansBold text-gray-500 text-base"
+      id="navbar-default">
+      <li class="justify-end hover:underline items-center transition duration-300 ease-in-out">
+        <a href="#features" class="font-bold">Features</a>
+      </li>
+      <li class="justify-end hover:underline items-center transition duration-300 ease-in-out">
+        <a href="#testimonials" class="font-bold">Testimonial</a>
+      </li>
+      <li class="justify-end hover:underline items-center transition duration-300 ease-in-out">
+        <a href="#pricing" class="font-bold">Pricing</a>
+      </li>
+      <li class="justify-end hover:underline items-center transition duration-300 ease-in-out">
+        <a href="#faqs" class="font-bold">FAQs</a>
+      </li>
+      <li class="justify-end hover:underline items-center transition duration-300 ease-in-out">
+        <a href="#blog" class="font-bold">Blog</a>
+      </li>
+
+    </ul>
+
+    <div class="flex gap-2">
+      <a href="#login">
+        <button class="bg-slate-100 text-gray-600 rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base">
+          <p>Log in</p>
+        </button>
+      </a>
+
+      <a href="#contact">
+        <button class="bg-black text-[#FEFEFE] rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base">
+          <p>Get started</p>
+        </button>
+      </a>
+    </div>
+  </nav>
+
+  <section class="flex flex-col">
+    <div
+      class="flex flex-col items-center justify-center md:px-60 md:max-w-[90rem] mx-auto max-w-[23.43rem] md:py-40 pt-36">
+      <div class="bg-[#F1F2F4] md:py-2 md:px-4 rounded-full font-PlusJakartaSansBold font-bold md:text-base">
+        An other way to manage time
+      </div>
+      <div
+        class="flex flex-col items-center justify-center text-center md:text-[4.9rem] text-[2.35rem] font-bold font-PlusJakartaSansExtraBold md:leading-[5rem] md:tracking-wider leading-[2.5rem] tracking-wider">
+        Your new favorite calendar🗓️app
+      </div>
+      <div
+        class="font-PlusJakartaSansMedium text-slate-500 text-dark text-center md:py-10 md:px-40 text-slate-500 md:tracking-wider leading-6">
+        <h1 class="text-xl">Here you should explain how cool your app is. Remember, focus on the benefits for your
+          users, not on the
+          features.</h1>
+      </div>
+      <div>
+        <a href="#contact">
+          <button
+            class="bg-black text-[#FEFEFE] rounded-lg md:py-4 md:px-8 font-PlusJakartaSansMedium md:text-lg py-4 px-6">
+            <p>Get started, it's free</p>
+          </button>
+        </a>
+      </div>
+      <div class="text-[14px] text-slate-500">
+        Free 14 days trials, no credit card needed
+      </div>
+      <div class="flex flex-row md:py-12 gap-0 py-10 px-1">
+        <div class="flex justify-center items-center relative text-center mr-44">
+          <div class="absolute left-0 right-0 h-12 w-12 border-[5px] rounded-full border-white">
+            <img src="assets/user1.webp" alt="" />
+          </div>
+          <div class="absolute left-8 right-0 h-12 w-12 border-[5px] rounded-full border-white">
+            <img src="assets/user2.webp" alt="" />
+          </div>
+          <div class="absolute left-16 right-0 h-12 w-12 border-[5px] rounded-full border-white">
+            <img src="assets/user3.webp" alt="" />
+          </div>
+          <div class="absolute -right-36 h-12 w-12 border-[5px] rounded-full border-white">
+            <img src="assets/user4.webp" alt="" />
+          </div>
+          <div class="absolute -right-44 h-12 w-12 border-[5px] rounded-full border-white">
+            <img src="assets/user5.webp" alt="" />
+          </div>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="flex justify-center items-center gap-1">
+            <img src="assets/starYellow.png" alt="" class="h-5 w-5" />
+            <img src="assets/starYellow.png" alt="" class="h-5 w-5" />
+            <img src="assets/starYellow.png" alt="" class="h-5 w-5" />
+            <img src="assets/starYellow.png" alt="" class="h-5 w-5" />
+            <img src="assets/starYellow.png" alt="" class="h-5 w-5" />
+            <div class="font-bold text-md">5.0</div>
+          </div>
+          <div class="font-medium leading-[32px] text-center text-[14px] text-slate-500 ml-5 -mt-1">
+            From 200+ happy users
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center justify-center">
+      <img src="assets/superPage.webp"
+        class="rounded-2xl border border-solid h-auto md:w-[73rem] border-gray-200 w-[20.6rem]" alt="sectionImg">
+    </div>
+
+    <div
+      class="flex flex-none flex-col items-center justify-center md:px-60 md:max-w-[90rem] mx-auto max-w-[23.43rem] md:py-40 pt-36"
+      id="features">
+      <div class="flex flex-none flex-col items-center justify-center gap-4">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
+          Our main features 🦸🏼
+        </div>
+        <div
+          class="flex flex-none items-center justify-center font-bold md:text-[3.25rem] text-[2rem] font-PlusJakartaSansExtraBold md:leading-[5rem] md:tracking-wider leading-[2.5rem] tracking-wider py-2 mx-6 my-4 ">
+          Discover your new superpowers
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="grid max-w-[1320px] px-8 py-8 mx-auto xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-6">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
+          Seamless Scheduling
+        </div>
+        <h1 class="max-w-xl mb-8 text-4xl text-dark font-medium md:text-4xl xl:text-5xl tracking-wider font-bold">
+          Focus on what matters most for you
+        </h1>
+        <p
+          class="max-w-2xl mb-6 text-dark lg:mb-8 md:text-lg lg:text-xl font-PlusJakartaSansMedium text-slate-500 mr-5 text-xl">
+          Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms,
+          import events from emails, and add participants with just a few clicks.
+        </p>
+        <div class="md:py-2 md:px-4">
+          <img class="w-full p-5" src="assets/bodySmallImg1.svg" alt="img">
+        </div>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+        <img src="assets/bodyLargeImg1.webp" alt="mockup">
+      </div>
+    </div>
+
+
+
+
+
+    <div class="grid max-w-[1320px] px-8 py-8 mx-auto lg:gap-10 xl:gap-0 lg:py-16 lg:grid-cols-12">
+
+      <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+        <img src="assets/bodyLargeImg2.webp" alt="mockup">
+      </div>
+      <div class="mr-auto place-self-center lg:col-span-6">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base">
+          Smart Reminders & Task
+        </div>
+        <h1 class="max-w-xl mb-6 text-5xl text-dark font-medium md:text-4xl xl:text-5xl tracking-wider font-bold">
+          Never miss an important deadline or event again
+        </h1>
+        <p
+          class="max-w-2xl mb-6 text-dark lg:mb-8 md:text-lg lg:text-xl font-PlusJakartaSansMedium  text-slate-500 mr-5">
+          Smart Reminders & Task
+
+          Never miss an important deadline or event again
+
+          Never miss an important deadline again with our AI-driven notifications. Our app intelligently analyzes your
+          schedule to prioritize what's most important, keeping you on track and ensuring your day is productive and
+          stress-free.
+        </p>
+        <div class="md:py-2 md:px-4">
+          <img class="w-full p-5" src="assets/bodySmallImg2.svg" alt="img">
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="grid max-w-[1320px] px-8 py-8 mx-auto lg:gap-10 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-6">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
+          Seamless Scheduling
+        </div>
+        <h1 class="max-w-xl mb-6 text-5xl text-dark font-medium md:text-4xl xl:text-5xl tracking-wider">
+          Focus on what matters most for you
+        </h1>
+        <p
+          class="max-w-2xl mb-6 text-dark lg:mb-8 md:text-lg lg:text-xl font-PlusJakartaSansMedium  text-slate-500 mr-5">
+          Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms,
+          import events from emails, and add participants with just a few clicks.
+        </p>
+        <div class="md:py-2 md:px-4 py-2 px-3">
+          <img class="w-full p-5" src="assets/bodySmallImg3.svg" alt="img">
+        </div>
+
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+        <img src="assets/bodyLargeImg3.webp" alt="mockup">
+      </div>
+    </div>
+    <div class="grid max-w-[1320px] px-8 py-8 mx-auto lg:gap-10 xl:gap-0 lg:py-16 lg:grid-cols-12">
+
+      <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+        <img src="assets/bodyLargeImg4.webp" alt="mockup">
+      </div>
+      <div class="mr-auto place-self-center lg:col-span-6">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
+          Smart Reminders & Task
+        </div>
+        <h1 class="max-w-xl mb-6 text-5xl text-dark font-medium md:text-4xl xl:text-5xl tracking-wider">
+          Never miss an important deadline or event again
+        </h1>
+        <p
+          class="max-w-2xl mb-6 text-dark lg:mb-8 md:text-lg lg:text-xl font-PlusJakartaSansMedium  text-slate-500 mr-5">
+          Smart Reminders & Task
+
+          Never miss an important deadline or event again
+
+          Never miss an important deadline again with our AI-driven notifications. Our app intelligently analyzes your
+          schedule to prioritize what's most important, keeping you on track and ensuring your day is productive and
+          stress-free.
+        </p>
+        <div class="md:py-2 md:px-4">
+          <img class="w-full p-5" src="assets/bodySmallImg4.svg" alt="img">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+    <!-- ====== Cards Section End -->
+
+
+
+    <section>
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray">Designed for business
+            teams like yours</h2>
+          <p class="mb-5 text-dark sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets
+            where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        </div>
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+
+          <div
+            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg bg-white shadow dark:border-gray-600 xl:p-8 dark:bg-white-800 dark:text-white">
+            <h3 class="mb-4 text-black font-semibold">Starter</h3>
+            <p class="text-gray-500  text-black sm:text-lg dark:text-gray-400">Best option for personal use & for your
+              next project.</p>
+            <div class="flex justify-center items-baseline my-8">
+              <span class="mr-2 text-5xl  text-black  font-extrabold">$29</span>
+              <span class="text-gray-500  text-black  dark:text-gray-400">/month</span>
+            </div>
+
+            <ul role="list" class="mb-8 space-y-4 text-left">
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Individual configuration</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">No setup, or hidden fees</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Team size: <span class="font-semibold  text-black ">1 developer</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Premium support: <span class="font-semibold  text-black ">6
+                    months</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Free updates: <span class="font-semibold  text-black ">6 months</span></span>
+              </li>
+            </ul>
+            <a href="#"
+              class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
+              started</a>
+          </div>
+
+          <div
+            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow dark:border-gray-600 dark:bg-white-800 xl:p-8 dark:text-white">
+            <h3 class="mb-4 text-2xl font-semibold  text-black ">Company</h3>
+            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400  text-black ">Relevant for multiple users,
+              extended &
+              premium support.</p>
+            <div class="flex justify-center items-baseline my-8">
+              <span class="mr-2 text-5xl font-extrabold  text-black ">$99</span>
+              <span class="text-gray-500 dark:text-gray-400  text-black ">/month</span>
+            </div>
+
+            <ul role="list" class="mb-8 space-y-4 text-left">
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Individual configuration</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">No setup, or hidden fees</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Team size: <span class="font-semibold  text-black ">10
+                    developers</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Premium support: <span class="font-semibold  text-black ">24
+                    months</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Free updates: <span class="font-semibold  text-black ">24
+                    months</span></span>
+              </li>
+            </ul>
+            <a href="#"
+              class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
+              started</a>
+          </div>
+
+          <div
+            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-white-800 dark:text-white">
+            <h3 class="mb-4 text-2xl font-semibold  text-black ">Enterprise</h3>
+            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400  text-black ">Best for large scale uses and
+              extended
+              redistribution rights.</p>
+            <div class="flex justify-center items-baseline my-8">
+              <span class="mr-2 text-5xl font-extrabold  text-black ">$499</span>
+              <span class="text-gray-500 dark:text-gray-400  text-black ">/month</span>
+            </div>
+
+            <ul role="list" class="mb-8 space-y-4 text-left">
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Individual configuration</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">No setup, or hidden fees</span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Team size: <span class="font-semibold  text-black ">100+
+                    developers</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Premium support: <span class="font-semibold  text-black ">36
+                    months</span></span>
+              </li>
+              <li class="flex items-center space-x-3">
+
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class=" text-black ">Free updates: <span class="font-semibold  text-black ">36
+                    months</span></span>
+              </li>
+            </ul>
+            <a href="#"
+              class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
+              started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="max-w-2xl mx-auto text-center">
+          <div
+            class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
+            Relevant stuff, bla bla 📣
+          </div>
+          <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            Frequently asked questions
+          </h1>
+        </div>
+        <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+          <div class="transition-all duration-20 bg-blue-50 rounded-lg  border-gray-200 cursor-pointer ">
+            <button type="button" id="question1" data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+              <span class="flex text-lg font-semibold text-black">How can I get started?</span>
+              <svg id="arrow1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-400">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="answer1" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+              <p>Getting started is easy! Sign up for an account, and you'll have access to our platform's
+                features. No credit card required for the initial signup.</p>
+            </div>
+          </div>
+          <div class="transition-all duration-200 bg-blue-50 rounded-lg border-gray-00  cursor-pointer ">
+            <button type="button" id="question2" data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+              <span class="flex text-lg font-semibold text-black">What is the pricing structure?</span>
+              <svg id="arrow2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-400">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="answer2" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+              <p>Our pricing structure is flexible. We offer both free and paid plans. You can choose the one
+                that
+                suits your needs and budget.</p>
+            </div>
+          </div>
+          <div class="transition-all duration-200 bg-blue-50 rounded-lg border-gray-200 cursor-pointer ">
+            <button type="button" id="question3" data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+              <span class="flex text-lg font-semibold text-black">What kind of support do you provide?</span>
+              <svg id="arrow3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-400">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="answer3" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+              <p>We offer comprehensive customer support. You can reach out to our support team through
+                various
+                channels, including email, chat, and a knowledge base.</p>
+            </div>
+          </div>
+          <div class="transition-all duration-200 bg-blue-50 rounded-lg border-sky-200 cursor-pointer">
+            <button type="button" id="question4" data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+              <span class="flex text-lg font-semibold text-black">Can I cancel my subscription anytime?</span>
+              <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-400">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="answer4" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+              <p>Yes, you can cancel your subscription at any time without any hidden fees. We believe in
+                providing a hassle-free experience for our users.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="flex flex-col">
+      <div
+        class="flex flex-col items-center justify-center md:px-60 md:max-w-[90rem] mx-auto max-w-[23.43rem] md:py-40 pt-36">
+        <div class="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base">
+          Last call Baby! 🚀
+        </div>
+        <div
+          class="flex flex-col items-center justify-center text-center md:text-[4.6rem] text-[2.35rem] font-PlusJakartaSansExtraBold md:leading-[5rem] md:tracking-wider leading-[2.5rem] tracking-wider py-2 mx-6 my-4">
+          Ready to start?
+        </div>
+        <div
+          class="font-PlusJakartaSansMedium text-center md:leading-[2rem] md:text-[1.1rem] text-[1rem] md:py-10 md:px-40 text-slate-500 md:tracking-wider leading-6 px-8 my-4">
+          Here is your last chance to explain how cool your app is. Focus on the benefits for your users, not on the
+          features.
+        </div>
+        <div>
+          <a href="#contact">
+            <button
+              class="bg-black text-[#FEFEFE] rounded-lg md:py-4 md:px-8 font-PlusJakartaSansMedium md:text-lg py-4 px-6">
+              <p>Get started, it's free</p>
+            </button>
+          </a>
+        </div>
+        <div class="md:py-2 md:px-4">
+          <img class="max-w-screen-xl p-5" src="assets/bodySmallImg4.svg" alt="img">
+        </div>
+      </div>
+    </section>
+
+
+   
+
+ <footer class="bg-slate-200">
+  
+    <div class="bg-[#F1F2F4] flex flex-row items-center justify-between align-center ">
+      <div class="flex max-w-[1300px] h-[433px] mx-auto gap-10 py-10">
+        <div>
+          <div>
+            <a href="/" class="flex flex-row py-4">
+              <img src="assets/FooterLogo.svg" alt="logo" class="h-7 w-8 mr-2" />
+              <p class="text-[28px] font-PlusJakartaSansBold text-gray-700 text-lg">
+                Milton
+              </p>
+            </a>
+          </div>
+          <div class="font-PlusJakartaSansMedium text-slate-500 my-5">
+            <p>A short text explaining why my startup is so cool </p>
+          </div>
+          <div class="font-PlusJakartaSansMedium text-slate-500 my-5">
+            <p>© My super start-up</p>
+          </div>
+          <div class="flex flex-row gap-4">
+            <img src="assets/twitter.svg" alt="image">
+            <img src="assets/facebook.svg" alt="image">
+            <img src="assets/linkedin.svg" alt="image">
+          </div>
+        </div>
+        <div class="flex flex-row gap-14 justify-center ">
+          <div class="flex flex-col max-w-[1000px]">
+            <div class="font-PlusJakartaSansBold text-slate-700 text-[20px] my-2 px-5">
+              Products
+            </div>
+            <div
+                  class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                  Features
+                </div>
+                <div
+                class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                Testimonials
+              </div>
+              <div
+              class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+              Pricing
+            </div>
+            <div
+            class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+            FAQ
+          </div>
+          </div>
+          <div class="flex flex-col max-w-[1000px]">
+            <div class="font-PlusJakartaSansBold text-slate-700 text-[20px] my-2 px-5">
+              Products
+            </div>
+            <div
+                  class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                  Change log
+                </div>
+                <div
+                class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                Help center
+              </div>
+              <div
+              class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+              Blog 
+            </div>
+            <div
+            class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+            Contacts
+          </div>
+          </div>
+          <div class="flex flex-col max-w-[1000px]">
+            <div class="font-PlusJakartaSansBold text-slate-700 text-[20px] my-2 px-5">
+              Other
+            </div>
+            <div
+                  class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                  Privacy
+                </div>
+                <div
+                class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                Terms
+              </div>
+              <div
+              class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+              Afflication
+            </div>
+            <div
+            class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+            Press
+          </div>
+          </div>
+          <div class="flex flex-col max-w-[1000px]">
+            <div class="font-PlusJakartaSansBold text-slate-700 text-[20px] my-2 px-5">
+              From the Blog
+            </div>
+            <div
+                  class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                  Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life
+                </div>
+                <div
+                class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+                Organizing Your Calendar for Enhanced Productivity and Focus
+              </div>
+              <div
+              class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+              The Power of Prioritization: Effective Strategies for Managing Your Time and Tasks
+            </div>
+            <div
+            class="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]">
+            Maximizing Your Minutes: Essential Tips for Streamlining Your Daily Routine and Calendar
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      // JavaScript to toggle the answers and rotate the arrows
+      document.querySelectorAll('[id^="question"]').forEach(function (button, index) {
+        button.addEventListener('click', function () {
+          var answer = document.getElementById('answer' + (index + 1));
+          var arrow = document.getElementById('arrow' + (index + 1));
+
+          if (answer.style.display === 'none' || answer.style.display === '') {
+            answer.style.display = 'block';
+            arrow.style.transform = 'rotate(0deg)';
+          } else {
+            answer.style.display = 'none';
+            arrow.style.transform = 'rotate(-180deg)';
+          }
+        });
+      });
+    </script>
+</body>
+
+</html>
